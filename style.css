@@ -1,0 +1,42 @@
+.cabecalho {
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 1em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.opcoes {
+
+}
+
+.enviar {
+    background-color: rgb(49, 18, 121);
+    border: none;
+    color: white;
+    width: 10%;
+    padding: 0.5em;
+    cursor: pointer;
+}
